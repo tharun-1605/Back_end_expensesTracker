@@ -1,0 +1,5 @@
+{
+    "editor.inlineSuggest.edits.experimental.useInterleavedLinesDiff": "always",
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.quickSuggestionsDelay": 5
+}

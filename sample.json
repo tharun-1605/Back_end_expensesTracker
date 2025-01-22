@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Jane",
+        "age": 25,
+        "city": "Los Angeles"
+    },
+    {
+        "name": "Doe",
+        "age": 35,
+        "city": "Chicago"
+    },
+    {
+        "name": "Smith",
+        "age": 40,
+        "city": "Houston"
+    },
+    {
+        "name": "Jane Smith",
+        "age": 25,
+        "profession": "Designer"
+    },
+    {
+        "name": "Rahul",
+        "age": 25,
+        "city": "Bangalore"
+    },
+    {
+        "name": "Rahul",
+        "age": 25,
+        "city": "Bangalore"
+    }
+]
