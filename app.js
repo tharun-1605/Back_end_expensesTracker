@@ -1,9 +1,9 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const { v4 } = require("uuid");
-
+const cors =require("cors")
 const app = express();
-app.use(express.json());
+app.use(cors());
 mongoose.connect("mongodb+srv://tharunk2023cse:VOnEwYBv71zo91a8@cluster0.2uzzs.mongodb.net/expenses").then(() => {
   console.log("connected to MongoDB");
 });
@@ -36,7 +36,7 @@ app.get("/api/expenses/:id", async (req, res) => {
 });
 
 app.post("/api/expenses", async (req, res) => {
-  console.log(req.body);
+  console.log(req.body);  
   const { title, amount } = req.body;
   if (!title || !amount) {
     return res.status(400).json({ message: "please provide both title and amount" });
